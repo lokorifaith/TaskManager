@@ -26,14 +26,15 @@
             padding: 20px;
         }
         .image-container {
-            display: flex;
-            align-items: center;
+            display:cover;
         }
         .image {
             flex: 1;
+            position: relative;
         }
         .text {
             flex: 1;
+
         }
         h1 {
             font-size: 24px;
@@ -63,7 +64,7 @@
         <h2>LEARNING LIONS</h2>
         <div class="image-container">
             <div class="image">
-            <img src="/" alt="Forest" width="600" height="400">
+            <img src="image/loropio.jpg" alt="Forest" width="600" height="400">
             </div>
             <div class="text">
                 <p>We chose Turkana, a region in remote north-western Kenya, bordering Ethiopia, South Sudan and Uganda as a starting point for our program.<br> The region suffers from poor infrastructure and very few job opportunities <br> if the model works here, it could work anywhere.<br>
