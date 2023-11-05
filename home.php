@@ -20,17 +20,18 @@
 
     <div class="container">
         <h1>Task Manager</h1>
-       <form method="post" action="task_process.php" id="task-form">
-  <label for="task-name">Task Name:</label> 
-  <input type="text" id="task-name" name="task_name" required> 
-  <label for="task-description">Description:</label>
-  <textarea id="task-description" name="task_description" required></textarea>
- <button type="submit">Add Task</button>
+        <form method="post" action="process_form.php" id="task-form">
+   <label for="task-name">Task Name:</label> 
+   <input type="text" id="task-name" name="task_name" required> 
+   <label for="task-description">Description:</label>
+   <textarea id="task-description" name="task_description" required></textarea>
+   <button type="submit">Add Task</button>
 </form>
+
 
         <ul id="task-list"></ul>
     </div>
-
     <script src="script.js"></script>
+
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "doctors_portal");
+$conn = mysqli_connect("localhost", "root", "", "task_manager");
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
